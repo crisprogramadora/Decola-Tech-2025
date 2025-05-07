@@ -16,10 +16,10 @@ public class Conta {
 
     private String agencia;
 
-    @Column(nullable = false, scale = 13, precision = 2)
+    @Column(nullable = false, precision = 13, scale = 2)
     private BigDecimal saldo;
 
-    @Column(scale = 13, precision = 2)
+    @Column(precision = 13, scale = 2)
     private BigDecimal limite;
 
     public Long getId() {
