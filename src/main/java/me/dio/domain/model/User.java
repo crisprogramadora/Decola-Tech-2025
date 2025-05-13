@@ -79,5 +79,4 @@ public class User {
     public void setNews(List<News> news) {
         this.news = news;
     }
-
 }

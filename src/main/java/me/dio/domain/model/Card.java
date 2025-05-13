@@ -44,5 +44,4 @@ public class Card {
     public void setLimit(BigDecimal limit) {
         this.limit = limit;
     }
-
 }
