@@ -1,4 +1,4 @@
-package me.dio.decola_tech_2025;
+package me.dio.domain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
