@@ -1,0 +1,1 @@
+web: java -jar C:\Users\crisp\Downloads\decola-tech-2025\build\libs\decola-tech-2025-0.0.1-SNAPSHOT.jar
