@@ -32,7 +32,7 @@ dependencies {
 
 tasks.jar {
 	manifest {
-		attributes["Main-Class"] = "me.dio.Application.java"
+		attributes["Main-Class"] = "me.dio.Application"
 	}
 }
 tasks.named('test') {

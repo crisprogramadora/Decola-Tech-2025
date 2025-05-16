@@ -7,6 +7,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 
 @Entity(name = "tb_card")
 public class Card {
@@ -20,6 +21,9 @@ public class Card {
 
     @Column(name = "available_limit", precision = 13, scale = 2)
     private BigDecimal limit;
+
+    @OneToOne(mappedBy = "card")
+    private User user;
 
     public Long getId() {
         return id;
@@ -43,5 +47,13 @@ public class Card {
 
     public void setLimit(BigDecimal limit) {
         this.limit = limit;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }
